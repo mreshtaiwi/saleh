@@ -2,6 +2,8 @@ body{
     font-family: cursive;
     width: 600px;
     margin: 0 auto;
+    border: 1px solid red;
+    height: auto;
 }
 #user{
     display: block;
@@ -45,9 +47,71 @@ button{
     display: block;
     margin: 30px auto;
 }
+a:first-child{
+    color: white;
+    display: inline;
+    margin:0;
+    text-decoration: none;
+}
 a{
     color: blue;
     display: block;
     margin-bottom: 2px;
     margin-left: 40px;
+}
+.container{
+    width: 500px;
+    margin:0 auto;
+}
+#title{
+    margin:10px auto;
+    border:1px solid black;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    background-color:rgb(86, 61, 124);
+}
+#subtitle{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+#select1{
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+#phone{
+    width:275px;
+}
+#p1{
+    display: inline-block;
+    float: left;
+    width: 120px;
+}
+#p2{
+    width: 150px;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+}
+.clearfix{
+    clear: both;
+    margin-bottom: 3px;
+}
+.far{
+    margin-left: 25px;
+    font-size: 20px;
+}
+textarea{
+    border: 2px solid black;
+    resize: none;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#secondform{
+    width: 345px;
+    margin:0 auto;
 }
