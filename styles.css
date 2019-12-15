@@ -1,0 +1,53 @@
+body{
+    font-family: cursive;
+    width: 600px;
+    margin: 0 auto;
+}
+#user{
+    display: block;
+    margin-bottom: 5px;
+}
+#pass{
+    display: block;
+    margin-bottom: 5px;
+}
+.header{
+    margin:25px auto;
+    width :200px;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    background-color:#563D7C;
+    border:3px solid black;
+}
+h4{
+    color: white;
+    padding-bottom: 40px;
+}
+.form{
+    width: 450px;
+    margin: 50px auto;
+}
+input{
+    margin: 0 auto;
+    width:330px;
+    border: 2px solid black;
+}
+
+#saveuser{
+    margin-left: 60px;
+}
+button{
+    background-color :#563D7C;
+    padding: 15px;
+    color:white;
+    width: 125px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+}
+a{
+    color: blue;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 40px;
+}
