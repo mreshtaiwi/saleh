@@ -142,6 +142,27 @@ textarea{
     display: inline-block;
     margin:2px 0px 10px 0px;
 }
+#result{
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    padding:2px;
+    display: inline-block;
+    margin:2px 0px 10px 0px;
+}
+.main{
+    width: 350px;
+    margin: 0 auto;
+}
+.pro{
+    color:black;
+    border: 2px solid black;
+    width: 300px;
+    padding:2px;
+    margin: 0 auto;
+    display: inline-block;
+    margin:2px 0px 10px 0px;
+}
 .checks{
     margin-top: 15px;
     display: block;
@@ -150,4 +171,8 @@ textarea{
 .type{
     float: left;
     margin-top: 10px;
+}
+img{
+    width: 300px;
+    height: 300px;
 }
