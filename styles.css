@@ -16,6 +16,9 @@ body{
     display: block;
     margin-bottom: 5px;
 }
+#f{
+    margin: 0 auto;
+}
 .header{
     margin:25px auto;
     width :200px;
@@ -32,12 +35,11 @@ h4{
     width: 450px;
     margin: 50px auto;
 }
-input['text']{
+input[type=text]{
     margin: 0 auto;
     width:330px;
     border: 2px solid black;
 }
-
 #saveuser{
     margin-left: 60px;
 }
